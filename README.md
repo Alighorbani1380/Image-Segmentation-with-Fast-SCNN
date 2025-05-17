@@ -23,6 +23,7 @@ This project was developed as part of advanced coursework in Neural Networks and
 
 ### 1.1. Objective
 To implement and evaluate the Fast-SCNN (Fast Semantic Segmentation Network) model for real-time, high-resolution semantic segmentation of urban street scenes. The primary dataset used for this task was the Cambridge-driving Labeled Video Database (CamVid).
+![image](https://github.com/user-attachments/assets/30845b64-6495-44bf-bc5e-c9e25d4b9cdd)
 
 ### 1.2. Fast-SCNN Model Overview
 Fast-SCNN is designed for efficiency and speed without a significant compromise in accuracy, making it suitable for applications on resource-constrained devices.
@@ -56,6 +57,8 @@ The model's performance was evaluated on the CamVid test set:
 -   **Mean Intersection over Union (mIoU)**: `0.3975`
 -   **Dice Coefficient**: `0.4952`
 -   **Pixel Accuracy**: `0.7779`
+  ![image](https://github.com/user-attachments/assets/363dd57a-b12e-4f84-bb93-5351902d6dcd)
+
 
 **Analysis**: The implemented Fast-SCNN model demonstrated reasonable performance for a lightweight, real-time architecture. Dominant classes (e.g., Sky, Road, Building) were generally well-detected. Challenges were observed with less frequent classes and complex boundaries, particularly in shaded areas. The drop in mIoU from validation (~0.55) to test (~0.40) suggests areas for improvement in model generalization.
 
@@ -79,7 +82,3 @@ The model's performance was evaluated on the CamVid test set:
 -   We thank the instructors and teaching assistants for their valuable guidance and support.
 -   Gratitude to the creators of the CamVid dataset.
 -   Inspiration and foundational concepts were drawn from the original research paper for [Fast-SCNN](https://arxiv.org/pdf/1902.04502).
-
----
-
-*To further enhance SEO and discoverability for your repository, consider adding relevant "topics" on GitHub. Go to your repository page and click the "Manage topics" button. Suggested topics: `deep-learning`, `computer-vision`, `image-segmentation`, `fast-scnn`, `pytorch`, `camvid-dataset`, `academic-project`.*
