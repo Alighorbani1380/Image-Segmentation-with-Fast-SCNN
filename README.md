@@ -27,6 +27,8 @@ To implement and evaluate the Fast-SCNN (Fast Semantic Segmentation Network) mod
 
 ### 1.2. Fast-SCNN Model Overview
 Fast-SCNN is designed for efficiency and speed without a significant compromise in accuracy, making it suitable for applications on resource-constrained devices.
+![image](https://github.com/user-attachments/assets/e7f087f6-9e34-4d03-9bd0-528ba209c309)
+
 -   **Architecture**: It features a multi-branch architecture with a shared "learning to downsample" module that feeds into two distinct branches:
     -   **Detail Path**: Captures high-resolution, low-level spatial details.
     -   **Context Path**: Processes lower-resolution features to capture global context using components like Inverted Residual Blocks (from MobileNetV2) and a Pyramid Pooling Module (PPM).
