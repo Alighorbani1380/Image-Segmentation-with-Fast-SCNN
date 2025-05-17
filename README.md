@@ -14,12 +14,7 @@ This project was developed as part of advanced coursework in Neural Networks and
     * [1.4. Methodology & Implementation Highlights](#14-methodology--implementation-highlights)
     * [1.5. Results & Evaluation](#15-results--evaluation)
 2.  [Technology Stack](#technology-stack)
-3.  [Setup and Installation](#setup-and-installation)
-4.  [Usage](#usage)
-5.  [Contributing](#contributing)
-6.  [License](#license)
-7.  [Authors](#authors)
-8.  [Acknowledgments](#acknowledgments)
+3.  [Acknowledgments](#acknowledgments)
 
 ---
 
